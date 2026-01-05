@@ -1,0 +1,9 @@
+package com.gof.model;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository //opcional
+public interface ClienteRepository extends CrudRepository<Cliente, Long> {
+
+}
